@@ -1,0 +1,197 @@
+html  
+    head
+        title 1000 Pitches
+        link(href='styles/stylesheet.css', rel='stylesheet')
+        link(href='styles/header.css', rel='stylesheet')
+        link(href='styles/what-is-1kp.css', rel='stylesheet')
+        link(href='styles/pitch-categories.css', rel='stylesheet')
+        link(href='styles/how-to-submit.css', rel='stylesheet')
+        link(href='styles/faq.css', rel='stylesheet')
+        link(href='styles/sponsors.css', rel='stylesheet')
+        link(href='styles/video.css', rel='stylesheet')
+        link(href='styles/countdown.css', rel='stylesheet')
+        link(href='styles/prizes.css', rel='stylesheet')
+        link(href='styles/calendar.css', rel='stylesheet')
+        link(rel='apple-touch-icon', sizes='180x180', href='/apple-touch-icon.png')
+        link(rel='icon', type='image/png', sizes='32x32', href='/favicon-32x32.png')
+        link(rel='icon', type='image/png', sizes='16x16', href='/favicon-16x16.png')
+        link(rel='manifest', href='/site.webmanifest')
+        link(rel='mask-icon', href='/safari-pinned-tab.svg', color='#5bbad5')
+        meta(name='msapplication-TileColor', content='#da532c')
+        meta(name='theme-color', content='#ffffff')
+        meta(name="viewport" content="width=device-width, initial-scale=1")
+
+    body
+      include nav.pug
+      
+      .section.yellow-background#home
+        h1 TIME LEFT TO PITCH
+
+      .section.clock
+        .clock-section
+          div#days.number 0
+          p DAYS
+        .clock-section
+          div#hours.number 0
+          p HOURS
+        .clock-section
+          div#minutes.number 0
+          p MINUTES
+        .clock-section
+          div#seconds.number 0
+          p SECONDS
+      .section.white-background#about
+
+      .section.about
+        .what-is-1kp
+          h1 What is 1000 Pitches?
+          p
+            span.yellow 1000 Pitches
+            |  is a month-long, campus-wide pitch competition at the University of Michigan.
+          p <br>
+            span.yellow 1000 Pitches
+            |  grants any student the opportunity to voice and share their ideas, promoting entrepreneurship in its most intuitive and raw form: the elevator pitch.
+
+        .what-counts-as-pitch
+          h1 What counts as a pitch?
+          p
+            span.yellow Any innovative idea
+            |  will be considered a pitch.
+          p <br>
+            span.yellow We recommend that pitches:
+          p.rec Are at least 30 seconds long.
+          p
+          p.rec
+            | Describe an idea, improvement, 
+            br
+            | or solution to a problem.
+          p.rec
+            | Describe how you would go about 
+            br
+            | putting your pitch into action.
+          p.rec
+            | Describe why your idea is 
+            br
+            | different/ better than similar ideas.
+
+      .divider
+
+      .section.prizes
+        .prize.pad
+          p.money $1,000
+          p.description Grand Prize
+        .prize.pad
+          p.money $500
+          p.description Second Place
+        .prize
+          p.money $250
+          p.description Third Place
+          
+
+      .divider#submissions
+
+      .section.how-to-submit
+        h1 How to Submit
+        p Pitches can be submitted by accessing our submission platform from a Smartphone or Laptop. Simply follow the prompts on the platform, submit a short pitch video, and you’re all set!
+        a.submit(href="https://airtable.com/shr6t8JihDLt7AJZ9" target="_blank") SUBMIT A PITCH
+      .divider
+
+      .section
+        h1.top-line Pitch 
+          span.any-innovative-idea any innovative idea.
+        h1.bottom-line Or, choose to pitch within a category:
+      .section.pitch-categories
+        p.cat Machine Learning<br>
+          img(src="1kp-icon-1.png", alt="")
+        p.cat Mobility<br>
+          img.mobility(src="1kp-icon-2.png", alt="")
+        p.cat Internet of Things<br>
+          img(src="1kp-icon-3.png", alt="")
+        p.cat Healthcare<br>
+          img(src="1kp-icon-4.png", alt="")
+        p.cat M-Provements<br>
+          img(src="1kp-icon-5.png", alt="")
+        p.cat Fintech<br>
+          img(src="1kp-icon-6.png", alt="")
+        p.cat Sustainability<br>
+          img(src="1kp-icon-7.png", alt="")
+        p.cat Consumer Products<br>
+          img(src="1kp-icon-8.png", alt="")
+        
+      .divider#faq
+
+      .section.faq
+        .container
+          h1 Frequently Asked Questions
+          .accordion
+            .accordion-item
+              a What is 1000 Pitches?
+              .content
+                p 1000 Pitches believes that everyone has an idea worth expressing. We challenge U-M students to take the leap from noticing a problem to ideating solutions. Our competition collects pitches from the end of September through mid-November, which is when we storm campus with pitch booths and organize social media campaigns to engage with the best ideas at U-M. We collect, review, and provide feedback on thousands of pitches every year. We offer a grand prize of $1000 for the best pitch and a handful of other cash and non-cash prizes to other winning pitches.
+            .accordion-item
+              a How does 1000 Pitches work?
+              .content
+                p 1000 Pitches collects pitches from the end of September through mid-November at our pitch booths and through social media. There are multiple ways to submit a pitch:
+                ul
+                  li Directly on our website.
+                  li By direct messaging any of our social media channels (Instagram: 1000pitches_umich, Facebook: 1000 Pitches)
+                  li In person at our pitch booths (see timeline)
+                p We collect, review, and provide feedback on thousands of pitches every year. We offer a grand prize of $1000 for the best pitch and a handful of other cash and non-cash prizes to other winning pitches.
+            .accordion-item
+              a Why should I pitch?
+              .content
+                p Immediate incentives for submitting a pitch may include free food, t-shirts, and more.
+                p Additionally, winners of select categories are entitled to prizes, including the $1000 cash prize for the best pitch, overall.
+                p We are also happy to help you promote your idea or give tips on how you can improve your pitch and/or the idea itself. 
+            .accordion-item
+              a How does 1KP interact with students?
+              .content
+                p We welcome pitches from students of all ages, majors, and schools. All of our efforts are directed toward making these interactions as meaningful and effortless as possible. Students can submit pitches in any of the following ways:
+                ul
+                  li Directly on our website.
+                  li By direct messaging any of our social media channels (Instagram: 1000pitches_umich, Facebook: 1000 Pitches)
+                  li In person at our pitch booths (see timeline)
+            .accordion-item
+              a What is the timeline? How long is the competition?
+              .content
+                p 1000 Pitches is held in the winter semester from the end of September to mid-November.
+                p 
+                  span.yellow Kickoff Date & Start of Pitch Collection 
+                  |  - September 30th; Central Campus Diag
+                p 
+                  span.yellow End of Pitch Collection 
+                  | - November 8th
+                p 
+                  span.yellow Award Ceremony 
+                  | - TBA
+            .accordion-item
+              a What is a pitch booth? 
+              .content
+                p Pitch booths are tables situated in hot-spots on campus where anyone can come pitch ideas. We will be holding pitch booths in dorms, Mason Hall, the Diag, and other locations listed here.
+
+      .divider#sponsors
+        
+      .section
+        h1 Our Sponsors
+      .section.sponsors
+        .sponsor
+          img(src="officeofpres.png", alt="")
+        .sponsor
+          img(src="center-for-entrepreneurship-feature.jpg", alt="")
+        .sponsor
+          img(src="innovateblue.png", alt="")
+
+
+      .section.videos
+
+        .video 
+          video(autoplay muted loop id="myVideo")
+            source(src="1kp-vid.mp4" type="video/mp4")
+        .video
+          video(autoplay muted loop id="myVideo")
+            source(src="1kp-vid.mp4" type="video/mp4")
+        .video
+          video(autoplay muted loop id="myVideo")
+            source(src="1kp-vid.mp4" type="video/mp4")
+
+      include footer.pug

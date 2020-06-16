@@ -1,0 +1,108 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'DIN Pro';
+  color: #2C3135;
+}
+
+.divider {
+  height: 50px;
+}
+
+.section {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.yellow {
+  color: #FFC906 !important;
+  font-weight: 600;
+}
+
+h1 {
+  font-weight: 600;
+}
+
+@media screen and (min-width: 700px) {
+  h1 {
+    font-size: 37px !important;
+  }
+
+  .divider {
+    height: 100px;
+  }
+}
+
+h1 {
+  text-transform: none !important;
+  font-size: 24px;
+  margin-bottom: 20px !important;
+  margin-top: 28px !important;
+}
+
+
+
+h2 {
+  font-family: 'Helvetica Neue';
+  line-height: 25px;
+  padding-bottom: 30px;
+}
+
+h3 {
+  font-family: 'Helvetica Neue';
+  color: #F5B817;
+  font-size: 30px;
+}
+
+h4 {
+  font-family: 'Din Pro';
+  font-size: 12px !important;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+h5 {
+  font-family: 'Din Pro';
+  font-size: 12px !important;
+  font-weight: bold;
+}
+
+p {
+  font-family: 'Din Pro';
+  font-size: 18px !important;
+  letter-spacing: 0px;
+}
+
+
+@font-face {
+  font-family: "DIN Pro";
+  src: url("DINPro-Black.otf");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "DIN Pro";
+  src: url("DINPro-Bold.otf");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "DIN Pro";
+  src: url("DINPro-Light.otf");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "DIN Pro";
+  src: url("DINPro-Medium.otf");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "DIN Pro";
+  src: url("DINPro-Regular.otf");
+  font-weight: 400;
+}
+
