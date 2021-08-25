@@ -10707,7 +10707,9 @@ video {
 .mpow_logo {
   display: block;
   z-index: 1;
-  margin-left: 20%;
+  margin-left: auto;
+  margin-right: auto;
+  /* margin-left: 20%; */
   margin-top: 16%;
   border: 3px;
   padding: 10px;
